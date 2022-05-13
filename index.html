@@ -22,7 +22,10 @@
     <!-- #ROOT VUE -->
     <div id="root">
         <div class="container">
-            <ul>
+            <ul v-if="mails.length > 0">
+                <li v-for="mail in mails">
+                    {{mail}}
+                </li>
             </ul>
         </div>
     </div>

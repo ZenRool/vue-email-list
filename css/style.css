@@ -6,7 +6,7 @@
 }
 .container {
     display: flex;
-    margin-top: 4rem;
+    padding-top: 4rem;
     align-items: flex-start;
     justify-content: center;
     height: 100vh;
