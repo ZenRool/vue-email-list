@@ -4,3 +4,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+    display: flex;
+    margin-top: 4rem;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    border: 5px solid black;
+}
+li {
+    width: 900px;
+    height: 60px;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 0 1rem;
+    border-top: 2px solid darkred;
+    color: darkblue;
+    background-color: aliceblue;
+
+}
+li:first-of-type {
+    border: none;
+}
